@@ -1,23 +1,7 @@
-export default function Home() {
+export default async function Home() {
   return (
-    <div className="p-4">
-      <div className="flex flex-col gap-y-4">
-        {/* <div>
-          <Button variant="elevated">I am a button</Button>
-        </div>
-        <div>
-          <Input placeholder="I am a Input:" />
-        </div>
-        <div>
-          <Progress value={50} />
-        </div>
-        <div>
-          <Textarea placeholder="I am a TextArea" />
-        </div>
-        <div>
-          <Checkbox />
-        </div> */}
-      </div>
+    <div>
+      <h1>Welcome to the Home Page</h1>
     </div>
   )
 }
